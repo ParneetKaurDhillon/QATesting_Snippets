@@ -16,7 +16,6 @@ public class SQLConnectionTest {
 			
 			ResultSet rs ;
 			int s = st.executeUpdate(queryInsert);
-			// select all values
 			rs = st.executeQuery("select * from employeecredentials");
 			
 			while(rs.next()) {
